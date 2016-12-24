@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_top_layout" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/layer_list_title_bottom"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="@dimen/charge_margin_left_right"
+        android:layout_marginRight="@dimen/charge_margin_left_right"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <cn.a17cc.joycharge.common.ThreeFourTextView
+            style="@style/Charge_TextViewStyle"
+            android:text="扫码充电"
+            android:drawableTop="@mipmap/charge_icon_scan_n"
+             />
+
+        <cn.a17cc.joycharge.common.ThreeFourTextView
+            style="@style/Charge_TextViewStyle"
+            android:layout_marginLeft="@dimen/charge_margin_left_right"
+            android:layout_marginRight="@dimen/charge_margin_left_right"
+            android:text="设备号充电"
+            android:drawableTop="@mipmap/charge_icon_number_n"
+             />
+
+        <cn.a17cc.joycharge.common.ThreeFourTextView
+            style="@style/Charge_TextViewStyle"
+            android:text="状态充电"
+            android:drawableTop="@mipmap/charge_icon_state_n"
+            />
+    </LinearLayout>
+
+    <TextView
+        style="@style/Charge_TextView_LineStyle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="近期充电点"
+        android:layout_marginLeft="@dimen/charge_margin_left_right"
+        android:layout_marginRight="@dimen/charge_margin_left_right"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/list_arrow_into_n"
+        android:textColor="@color/top_title"/>
+    <TextView
+        style="@style/Charge_TextView_LineStyle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="充电记录"
+        android:layout_marginLeft="@dimen/charge_margin_left_right"
+        android:layout_marginRight="@dimen/charge_margin_left_right"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/list_arrow_into_n"
+        android:textColor="@color/top_title"/>
+    <TextView
+        style="@style/Charge_TextView_LineStyle" />
+</LinearLayout>

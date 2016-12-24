@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    >
+
+    <RadioButton
+        android:id="@+id/tab_search"
+        style="@style/Theme_RadioButtonStyle"
+        android:text="@string/tab_search_text"
+        android:drawableTop="@drawable/select_tab_search"
+        />
+
+    <RadioButton
+        android:id="@+id/tab_charge"
+        style="@style/Theme_RadioButtonStyle"
+        android:text="@string/tab_charge_text"
+        android:drawableTop="@drawable/select_tab_charge"
+        />
+
+    <RadioButton
+        android:id="@+id/tab_find"
+        style="@style/Theme_RadioButtonStyle"
+        android:text="@string/tab_find_text"
+        android:drawableTop="@drawable/select_tab_find"
+        />
+
+    <RadioButton
+        android:id="@+id/tab_me"
+        style="@style/Theme_RadioButtonStyle"
+        android:text="@string/tab_me_text"
+        android:drawableTop="@drawable/select_tab_me"
+        />
+
+
+</RadioGroup>

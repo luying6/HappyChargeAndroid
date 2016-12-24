@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_search_toolbar_layout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_linear_round_map"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/map_label_green"
+                android:drawablePadding="6dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:text="空闲"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/map_label_red"
+                android:drawablePadding="6dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:text="使用"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/map_label_gray"
+                android:drawablePadding="6dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:text="故障"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

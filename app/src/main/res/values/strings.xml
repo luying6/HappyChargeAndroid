@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HappyChargeAndroid</string>
+    <string name="tab_search_text">搜索</string>
+    <string name="tab_charge_text">充电</string>
+    <string name="tab_find_text">发现</string>
+    <string name="tab_me_text">我的</string>
+</resources>

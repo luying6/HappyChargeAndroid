@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#34C784</color>
+    <color name="green_shallow">#C1D0BE</color>
+    <color name="elevation_end">#def2e8</color>
+    <color name="elevation_start">#CEF0DF</color>
+    <color name="top_title">#444444</color>
+    <color name="line_color">#ECECEC</color>
+</resources>

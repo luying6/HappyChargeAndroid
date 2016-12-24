@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:clickable="true"
+        android:src="@mipmap/title_icon_scanning_n" />
+
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="15.5dp"
+        android:layout_marginTop="13dp"
+        android:layout_weight="1"
+        android:background="@mipmap/title_input_bar"
+        android:cursorVisible="false"
+        android:drawableLeft="@mipmap/title_icon_search"
+        android:drawablePadding="10dp"
+        android:hint="查找地址、充电桩"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColorHint="#D0D9CE"
+        android:textCursorDrawable="@null"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:src="@mipmap/title_icon_filter_n" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:src="@mipmap/title_icon_list_n" />
+
+</LinearLayout>
