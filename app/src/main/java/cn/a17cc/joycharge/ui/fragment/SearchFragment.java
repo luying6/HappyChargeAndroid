@@ -47,6 +47,7 @@ public class SearchFragment extends Fragment implements LocationSource, AMapLoca
     @BindView(R.id.map)
     MapView map;
 
+
     private AMap aMap;
     private OnLocationChangedListener mListener;
     private AMapLocationClient mlocationClient;
